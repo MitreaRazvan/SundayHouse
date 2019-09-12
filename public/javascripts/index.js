@@ -1,3 +1,7 @@
+let API_URL = {
+  READ: 'data/products.json'
+}
+
 
 const cartBtn = document.querySelector(".cart-btn");
 const closeCartBtn = document.querySelector(".close-cart");
