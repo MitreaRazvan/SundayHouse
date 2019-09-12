@@ -2,6 +2,10 @@ let API_URL = {
   READ: 'data/products.json'
 }
 
+let API_METHOD = {
+  READ: 'GET'
+}
+
 
 const cartBtn = document.querySelector(".cart-btn");
 const closeCartBtn = document.querySelector(".close-cart");
@@ -17,7 +21,8 @@ let cart = [];
 let buttonsDOM = [];
 
 if (location.host === "mitrearazvan.github.io") {
-  API_URL.READ = '../public/data/products.json';
+  API_URL.READ = 'public/data/products.json';
+  API_METHOD.READ = 'GET'
 }
 
 //GETTING PRODUCTS
