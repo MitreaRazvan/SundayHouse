@@ -1,6 +1,6 @@
 # SundayHouse
 SundayHouse is a E-Commerce project in progress.
-
+First focus was on add to cart items
 - [x] the Shopping Cart
 - [x] add item in Cart
 - [x] add amount on items
