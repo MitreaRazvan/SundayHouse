@@ -12,6 +12,10 @@ const productsDOM = document.querySelector(".products-center");
 let cart = [];
 let buttonsDOM = [];
 
+if (location.host === "mitrearazvan.github.io") {
+  API_URL.READ = '../public/data/products.json';
+}
+
 //GETTING PRODUCTS
 class Products{
   async getProducts(){
