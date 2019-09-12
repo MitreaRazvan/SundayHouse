@@ -9,7 +9,7 @@ SundayHouse is a E-Commerce project in progress.
 - [x] clear the cart
 
 # LIVE PREVIEW
-[OPEN](https://mitrearazvan.github.io/web-logistics/public/index.html)
+[OPEN](https://mitrearazvan.github.io/sundayhouse/public/index.html)
 
 Not Done
  
